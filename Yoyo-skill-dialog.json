@@ -1,0 +1,7509 @@
+{
+  "intents": [
+    {
+      "intent": "about_bank",
+      "examples": [
+        {
+          "text": "How many locations do you have?"
+        },
+        {
+          "text": "I want to learn more about your bank."
+        },
+        {
+          "text": "Tell me about the bank"
+        },
+        {
+          "text": "Tell me about you"
+        },
+        {
+          "text": "what are the trading conditions"
+        },
+        {
+          "text": "what is your history?"
+        },
+        {
+          "text": "What's your story?"
+        },
+        {
+          "text": "When were the bank founded?"
+        },
+        {
+          "text": "Where is the office"
+        },
+        {
+          "text": "Which country does the bank come from"
+        },
+        {
+          "text": "who are the owners and what is their philosophy?"
+        }
+      ],
+      "description": "Ask info about the neo-bank Yo"
+    },
+    {
+      "intent": "available_stocks_options",
+      "examples": [
+        {
+          "text": "What @asset_classes:stock are there on the market?"
+        },
+        {
+          "text": "What @asset_classes:stock do you know?"
+        },
+        {
+          "text": "What options do you have for @asset_classes:stock?"
+        },
+        {
+          "text": "what stocks do you know?"
+        },
+        {
+          "text": "Which @asset_classes:stock can you tell me the information about?"
+        }
+      ],
+      "description": "Ask for available stocks options"
+    },
+    {
+      "intent": "crypto_info",
+      "examples": [
+        {
+          "text": "Can I have information on bitcoin"
+        },
+        {
+          "text": "Can you give me cryptos information"
+        },
+        {
+          "text": "can you give me info on @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "can you give me info on coins"
+        },
+        {
+          "text": "can you give me info on crypto"
+        },
+        {
+          "text": "can you give me some information about @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "can you provide me with info on @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "can you provide me with some infos regarding @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "do you know @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "I want information on @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "I want information on @cryptos"
+        },
+        {
+          "text": "tell me about bitcoin"
+        },
+        {
+          "text": "tell me about @cryptos"
+        },
+        {
+          "text": "tell me something about @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "wanna know infos about @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "what cryptos do you have"
+        },
+        {
+          "text": "What is @asset_classes:crypto||@cryptos"
+        },
+        {
+          "text": "what is the price of bitcoin"
+        }
+      ],
+      "description": "Client wants to know more about the cryptos"
+    },
+    {
+      "intent": "crypto_trend",
+      "examples": [
+        {
+          "text": "About which coin is the community talking"
+        },
+        {
+          "text": "Can you give me the crypto trends"
+        },
+        {
+          "text": "Can you tell me tell me which cryptos are interesting"
+        },
+        {
+          "text": "Give me the trends of cryptos"
+        },
+        {
+          "text": "how hot is @cryptos"
+        },
+        {
+          "text": "how often is bitcoin mentioned on reddit"
+        },
+        {
+          "text": "how often is @cryptos mentioned on reddit"
+        },
+        {
+          "text": "how popula is @cryptos"
+        },
+        {
+          "text": "how popular is bitcoin"
+        },
+        {
+          "text": "how popular is @cryptos"
+        },
+        {
+          "text": "how popular is eth"
+        },
+        {
+          "text": "How popular is solana"
+        },
+        {
+          "text": "I want cryptos trends"
+        },
+        {
+          "text": "I want the @trends for @assest_classes:crypto"
+        },
+        {
+          "text": "I want the trends for cryptos"
+        },
+        {
+          "text": "I want trends about @cryptos"
+        },
+        {
+          "text": "show me the trends for cryptos"
+        },
+        {
+          "text": "Tell me about bitcoin trends"
+        },
+        {
+          "text": "tell me about cryptos trends"
+        },
+        {
+          "text": "tell me about crypto trends"
+        },
+        {
+          "text": "tell me about the cryptos trends"
+        },
+        {
+          "text": "tell me the cryptos trends"
+        },
+        {
+          "text": "Tell me the crypto trends"
+        },
+        {
+          "text": "tell me trendy coins"
+        },
+        {
+          "text": "what coins are hot?"
+        },
+        {
+          "text": "what coins are popular"
+        },
+        {
+          "text": "what is trending in the crypto space"
+        },
+        {
+          "text": "which coin is on a hot streak"
+        },
+        {
+          "text": "Which coins are hot"
+        },
+        {
+          "text": "Which coins are trending"
+        },
+        {
+          "text": "Which cryptos are discussed on reddit"
+        },
+        {
+          "text": "which cryptos are hot"
+        },
+        {
+          "text": "which cryptos are hot in social media"
+        },
+        {
+          "text": "which cryptos are hyped"
+        },
+        {
+          "text": "Which cryptos are interesting"
+        },
+        {
+          "text": "which cryptos are talked about"
+        }
+      ]
+    },
+    {
+      "intent": "faq",
+      "examples": [
+        {
+          "text": "Account statements: where do I find the year-end statement?"
+        },
+        {
+          "text": "Are my deposits covered by the deposit insurance scheme?"
+        },
+        {
+          "text": "Can I also place my stock exchange orders by telephone?"
+        },
+        {
+          "text": "Change of addChange of address – what needs to be done?ress – what needs to be done?"
+        },
+        {
+          "text": "faq"
+        },
+        {
+          "text": "How can I close my account?"
+        },
+        {
+          "text": "How can I open a trading account with YOYO?"
+        },
+        {
+          "text": "How can I place orders on the stock exchange?"
+        },
+        {
+          "text": "How do I transfer money to my YOYO account? How do I fund my account? Are there funding limits on credit cards?"
+        },
+        {
+          "text": "I cannot log in to my trading account. What do I do now?"
+        },
+        {
+          "text": "My transfer has not been credited to my account. What can I do?"
+        },
+        {
+          "text": "What are your trading conditions?"
+        },
+        {
+          "text": "What investor protection does YOYO provide?"
+        },
+        {
+          "text": "What is “invite a buddy”?"
+        },
+        {
+          "text": "Where can I find more detailed information on the trading costs and conditions?"
+        },
+        {
+          "text": "Where can I find my IBAN?"
+        },
+        {
+          "text": "Where can I get a copy of my passport certified?"
+        },
+        {
+          "text": "Which products can I trade?"
+        },
+        {
+          "text": "Why do I need proof of address to register for an account?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "how old are u"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "who r u"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "connect me to human"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "give me human"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "bravo"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "good job"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm happy"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "get_summary",
+      "examples": [
+        {
+          "text": "Can I have the summary of our conversation?"
+        },
+        {
+          "text": "Do I have access to our conversation history?"
+        },
+        {
+          "text": "How can I save our conversation record?"
+        },
+        {
+          "text": "Please send me our chat record via email"
+        },
+        {
+          "text": "Will I be able to see our conversation record again?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "how_many",
+      "examples": [
+        {
+          "text": "10"
+        },
+        {
+          "text": "I buy 10 shares of @stocks"
+        },
+        {
+          "text": "I sell 4 @cryptos"
+        },
+        {
+          "text": "@sys-number"
+        }
+      ],
+      "description": "Amount traded"
+    },
+    {
+      "intent": "KT_test_email",
+      "examples": [
+        {
+          "text": "email"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "KT_test_summary",
+      "examples": [
+        {
+          "text": "summary"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "learn_about_a_specific_coin",
+      "examples": [
+        {
+          "text": "I want to learn about a specific coin"
+        }
+      ],
+      "description": "want to learn about a specific coin"
+    },
+    {
+      "intent": "learn_about_a_specific_stock",
+      "examples": [
+        {
+          "text": "I want to know about a specific stock."
+        },
+        {
+          "text": "I want to learn about a specific stock"
+        }
+      ],
+      "description": "want to learn about a specific stock"
+    },
+    {
+      "intent": "news_alerts",
+      "examples": [
+        {
+          "text": "I'd like to get news alerts."
+        },
+        {
+          "text": "I'd like to get news notifications."
+        },
+        {
+          "text": "I'd like to receive news updates."
+        },
+        {
+          "text": "Keep me informed with the latest news."
+        },
+        {
+          "text": "Send me the latest news regularly."
+        }
+      ],
+      "description": "Create a news alert"
+    },
+    {
+      "intent": "order_buy_and_sell",
+      "examples": [
+        {
+          "text": "advanced"
+        },
+        {
+          "text": "basic"
+        },
+        {
+          "text": "can I buy"
+        },
+        {
+          "text": "can I sell"
+        },
+        {
+          "text": "dump my btc"
+        },
+        {
+          "text": "Hi I want to buy bitcoin"
+        },
+        {
+          "text": "I wanna buy BTC"
+        },
+        {
+          "text": "I wanna sell stocks"
+        },
+        {
+          "text": "I want to buy 10 bitcoin"
+        },
+        {
+          "text": "I want to buy 10 bitcoins"
+        },
+        {
+          "text": "I want to buy coins"
+        },
+        {
+          "text": "I want to buy Exxon"
+        },
+        {
+          "text": "I want to buy stocks"
+        },
+        {
+          "text": "I want to get rid of BTC"
+        },
+        {
+          "text": "I want to sell"
+        },
+        {
+          "text": "I want to sell coins"
+        }
+      ],
+      "description": "buying and selling"
+    },
+    {
+      "intent": "stocks_cryptos_chart",
+      "examples": [
+        {
+          "text": "Can you show me the price chart of @cryptos_alphavantage"
+        },
+        {
+          "text": "Can you show me the price chart of @stocks"
+        },
+        {
+          "text": "How has the price of @stocks||@cryptos developed?"
+        },
+        {
+          "text": "I want price chart for FB"
+        },
+        {
+          "text": "I want to see the price chart of IBM"
+        },
+        {
+          "text": "Show me the recent price change of @stocks||@cryptos"
+        },
+        {
+          "text": "What was the price of @stocks||@cryptos two days ago?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "stocks_info",
+      "examples": [
+        {
+          "text": "Can I get information on @stocks"
+        },
+        {
+          "text": "can you give me info on google"
+        },
+        {
+          "text": "can you give me info on tesla"
+        },
+        {
+          "text": "Can you give me information on stocks?"
+        },
+        {
+          "text": "Can you give me some info about @stocks?"
+        },
+        {
+          "text": "do you have info on @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "give me information of @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "give me information on @asset_classes:crypto || @stocks"
+        },
+        {
+          "text": "how is @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "how is @stocks"
+        },
+        {
+          "text": "I want information on @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "I want information on stocks"
+        },
+        {
+          "text": "show me what @asset_classes:stock || @stocks does"
+        },
+        {
+          "text": "tell me about @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "tell me about ibm"
+        },
+        {
+          "text": "tell me about stocks"
+        },
+        {
+          "text": "what info do you have about @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "What is @asset_classes:stock || @stocks"
+        }
+      ],
+      "description": "Information about stocks"
+    },
+    {
+      "intent": "stocks_trend",
+      "examples": [
+        {
+          "text": "About which @asset_classes:stock || @stocks is the community talking"
+        },
+        {
+          "text": "Can you give me info on @asset_classes:stock || @stocks trends"
+        },
+        {
+          "text": "Can you give me info on stocks trends"
+        },
+        {
+          "text": "Can you tell me tell me which @asset_classes:stock || @stocks are interesting"
+        },
+        {
+          "text": "how popular is PYPL"
+        },
+        {
+          "text": "how popular is @stocks"
+        },
+        {
+          "text": "I want the trends for stocks"
+        },
+        {
+          "text": "I want trends for @asset_classes:stock || @stocks"
+        },
+        {
+          "text": "Tell me about stocks trends"
+        },
+        {
+          "text": "tell me about the stocks trends"
+        },
+        {
+          "text": "What stocks are talked about"
+        },
+        {
+          "text": "Which @asset_classes:stock || @stocks are discussed on reddit"
+        },
+        {
+          "text": "Which @asset_classes:stock || @stocks are hot"
+        },
+        {
+          "text": "which @asset_classes:stock || @stocks are hot in social media"
+        },
+        {
+          "text": "which @asset_classes:stock || @stocks are hyped"
+        },
+        {
+          "text": "Which @asset_classes:stock || @stocks are interesting"
+        },
+        {
+          "text": "which @asset_classes:stock || @stocks are talked about"
+        },
+        {
+          "text": "Which @asset_classes:stock || @stocks are trending"
+        },
+        {
+          "text": "Which stocks are hot"
+        }
+      ]
+    },
+    {
+      "intent": "trading_market_information",
+      "examples": [
+        {
+          "text": "How are the natural forces?"
+        },
+        {
+          "text": "How's the demographics?"
+        },
+        {
+          "text": "How's the inflation?"
+        },
+        {
+          "text": "How's the political situation?"
+        },
+        {
+          "text": "How's the techological development?"
+        },
+        {
+          "text": "Is the central bank support?"
+        },
+        {
+          "text": "Is the market affected by wars?"
+        }
+      ],
+      "description": "Questions related to market information"
+    },
+    {
+      "intent": "trading_triggers",
+      "examples": [
+        {
+          "text": "Set Buy Stops."
+        },
+        {
+          "text": "Set limit price."
+        },
+        {
+          "text": "Set order limits."
+        },
+        {
+          "text": "Set profit target."
+        },
+        {
+          "text": "Set Sell Stops."
+        },
+        {
+          "text": "Set stop-loss order."
+        }
+      ],
+      "description": "Create trade triggers"
+    },
+    {
+      "intent": "trends",
+      "examples": [
+        {
+          "text": "Can you give me info on trends"
+        },
+        {
+          "text": "can you tell me what the community is talking about"
+        },
+        {
+          "text": "Give me the trends"
+        },
+        {
+          "text": "give me trends"
+        },
+        {
+          "text": "how are the trends"
+        },
+        {
+          "text": "I want information on trends"
+        },
+        {
+          "text": "I would like information on trends"
+        },
+        {
+          "text": "tell me about investment trends"
+        },
+        {
+          "text": "Tell me about the trends"
+        },
+        {
+          "text": "tell me about trends"
+        },
+        {
+          "text": "tell me the investment trend"
+        },
+        {
+          "text": "tell me the trends"
+        },
+        {
+          "text": "what are people talking about"
+        },
+        {
+          "text": "What are the trends"
+        },
+        {
+          "text": "what assets are hot"
+        },
+        {
+          "text": "what's hot in the market"
+        },
+        {
+          "text": "what's the new hype"
+        }
+      ],
+      "description": "trends for cryptos/ stocks"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "asset_classes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "crypto",
+          "synonyms": [
+            "coins",
+            "cryptocurrencies",
+            "@cryptos",
+            "cryptos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stock",
+          "synonyms": [
+            "@stocks",
+            "stocks"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "chart",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chart",
+          "synonyms": [
+            "graph",
+            "movement",
+            "plot"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cryptos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "0x",
+          "synonyms": [
+            "0x",
+            "zrx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1inch",
+          "synonyms": [
+            "1inch"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aave",
+          "synonyms": [
+            "aave"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "acala",
+          "synonyms": [
+            "aca",
+            "Acala"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "algorand",
+          "synonyms": [
+            "algo",
+            "Algorand"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "amp-token",
+          "synonyms": [
+            "amp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "anchor-protocol",
+          "synonyms": [
+            "anc",
+            "Anchor Protocol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ankr",
+          "synonyms": [
+            "ankr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "apecoin",
+          "synonyms": [
+            "ape",
+            "ApeCoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "apenft",
+          "synonyms": [
+            "APENFT",
+            "nft"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "arweave",
+          "synonyms": [
+            "ar",
+            "Arweave"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "astar",
+          "synonyms": [
+            "Astar",
+            "astr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "astroport",
+          "synonyms": [
+            "astro",
+            "Astroport"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "audius",
+          "synonyms": [
+            "audio",
+            "Audius"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "aurora-near",
+          "synonyms": [
+            "aurora"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "avalanche-2",
+          "synonyms": [
+            "Avalanche",
+            "avax"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "axie-infinity",
+          "synonyms": [
+            "Axie Infinity",
+            "axs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "baby-doge-coin",
+          "synonyms": [
+            "babydoge",
+            "Baby Doge Coin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bancor",
+          "synonyms": [
+            "Bancor Network Token",
+            "bnt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "basic-attention-token",
+          "synonyms": [
+            "Basic Attention Token",
+            "bat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "binancecoin",
+          "synonyms": [
+            "bnb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "binance-usd",
+          "synonyms": [
+            "Binance USD",
+            "busd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "biswap",
+          "synonyms": [
+            "Biswap",
+            "bsw"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitclout",
+          "synonyms": [
+            "Decentralized Social",
+            "deso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitcoin",
+          "synonyms": [
+            "Bitcoin",
+            "btc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitcoin-cash",
+          "synonyms": [
+            "bch",
+            "Bitcoin Cash"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitcoin-cash-sv",
+          "synonyms": [
+            "Bitcoin SV",
+            "bsv"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitcoin-gold",
+          "synonyms": [
+            "Bitcoin Gold",
+            "btg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitdao",
+          "synonyms": [
+            "bit",
+            "BitDAO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bitkub-coin",
+          "synonyms": [
+            "Bitkub Coin",
+            "kub"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bittorrent",
+          "synonyms": [
+            "BitTorrent",
+            "btt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "blockstack",
+          "synonyms": [
+            "Stacks",
+            "stx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cardano",
+          "synonyms": [
+            "ada",
+            "Cardano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "casper-network",
+          "synonyms": [
+            "Casper Network",
+            "cspr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cdai",
+          "synonyms": [
+            "cdai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ceek",
+          "synonyms": [
+            "ceek",
+            "CEEK Smart VR Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "celer-network",
+          "synonyms": [
+            "Celer Network",
+            "celr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "celo",
+          "synonyms": [
+            "celo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "celsius-degree-token",
+          "synonyms": [
+            "cel",
+            "Celsius Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chain-2",
+          "synonyms": [
+            "Chain",
+            "xcn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chainlink",
+          "synonyms": [
+            "Chainlink",
+            "link"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chiliz",
+          "synonyms": [
+            "Chiliz",
+            "chz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coin98",
+          "synonyms": [
+            "c98",
+            "Coin98"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "compound-ether",
+          "synonyms": [
+            "ceth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "compound-governance-token",
+          "synonyms": [
+            "comp",
+            "Compound"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "compound-usd-coin",
+          "synonyms": [
+            "cusdc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "compound-usdt",
+          "synonyms": [
+            "cusdt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "conflux-token",
+          "synonyms": [
+            "cfx",
+            "Conflux"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "constellation-labs",
+          "synonyms": [
+            "Constellation",
+            "dag"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "constitutiondao",
+          "synonyms": [
+            "ConstitutionDAO",
+            "people"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "convex-crv",
+          "synonyms": [
+            "Convex CRV",
+            "cvxcrv"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "convex-finance",
+          "synonyms": [
+            "Convex Finance",
+            "cvx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cosmos",
+          "synonyms": [
+            "atom",
+            "Cosmos Hub"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coti",
+          "synonyms": [
+            "coti"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cratos",
+          "synonyms": [
+            "Cratos",
+            "crts"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "crypto-com-chain",
+          "synonyms": [
+            "cro",
+            "Cronos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "curve-dao-token",
+          "synonyms": [
+            "crv",
+            "Curve DAO Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dai",
+          "synonyms": [
+            "dai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dao-maker",
+          "synonyms": [
+            "dao",
+            "DAO Maker"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dash",
+          "synonyms": [
+            "dash"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "decentraland",
+          "synonyms": [
+            "Decentraland",
+            "mana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "decred",
+          "synonyms": [
+            "dcr",
+            "Decred"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "defichain",
+          "synonyms": [
+            "DeFiChain",
+            "dfi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "defi-kingdoms",
+          "synonyms": [
+            "DeFi Kingdoms",
+            "jewel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dent",
+          "synonyms": [
+            "dent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "digibyte",
+          "synonyms": [
+            "dgb",
+            "DigiByte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dogecoin",
+          "synonyms": [
+            "doge",
+            "Dogecoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dogelon-mars",
+          "synonyms": [
+            "Dogelon Mars",
+            "elon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dydx",
+          "synonyms": [
+            "dydx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ecash",
+          "synonyms": [
+            "eCash",
+            "xec"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ecomi",
+          "synonyms": [
+            "ECOMI",
+            "omi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "elrond-erd-2",
+          "synonyms": [
+            "egld",
+            "Elrond"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "enjincoin",
+          "synonyms": [
+            "enj",
+            "Enjin Coin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "eos",
+          "synonyms": [
+            "eos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "e-radix",
+          "synonyms": [
+            "e-Radix",
+            "exrd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ethereum",
+          "synonyms": [
+            "eth",
+            "Ethereum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ethereum-classic",
+          "synonyms": [
+            "etc",
+            "Ethereum Classic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ethereum-name-service",
+          "synonyms": [
+            "ens",
+            "Ethereum Name Service"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "everdome",
+          "synonyms": [
+            "dome",
+            "Everdome"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "everscale",
+          "synonyms": [
+            "ever",
+            "Everscale"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fantom",
+          "synonyms": [
+            "Fantom",
+            "ftm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fei-usd",
+          "synonyms": [
+            "fei",
+            "Fei USD"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fetch-ai",
+          "synonyms": [
+            "fet",
+            "Fetch.ai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "filecoin",
+          "synonyms": [
+            "fil",
+            "Filecoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flex-coin",
+          "synonyms": [
+            "flex",
+            "FLEX Coin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "floki-inu",
+          "synonyms": [
+            "floki",
+            "Floki Inu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flow",
+          "synonyms": [
+            "flow"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frax",
+          "synonyms": [
+            "frax"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frax-share",
+          "synonyms": [
+            "Frax Share",
+            "fxs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ftx-token",
+          "synonyms": [
+            "ftt",
+            "FTX Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fx-coin",
+          "synonyms": [
+            "Function X",
+            "fx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gala",
+          "synonyms": [
+            "gala"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gatechain-token",
+          "synonyms": [
+            "GateToken",
+            "gt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "gnosis",
+          "synonyms": [
+            "gno",
+            "Gnosis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "golem",
+          "synonyms": [
+            "glm",
+            "Golem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "harmony",
+          "synonyms": [
+            "Harmony",
+            "one"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "havven",
+          "synonyms": [
+            "snx",
+            "Synthetix Network Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hedera-hashgraph",
+          "synonyms": [
+            "hbar",
+            "Hedera"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "helium",
+          "synonyms": [
+            "Helium",
+            "hnt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hive",
+          "synonyms": [
+            "hive"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "holotoken",
+          "synonyms": [
+            "Holo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "humans-ai",
+          "synonyms": [
+            "heart",
+            "Humans.ai"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "huobi-btc",
+          "synonyms": [
+            "hbtc",
+            "Huobi BTC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "huobi-token",
+          "synonyms": [
+            "ht",
+            "Huobi Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "husd",
+          "synonyms": [
+            "husd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "icon",
+          "synonyms": [
+            "ICON",
+            "icx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "illuvium",
+          "synonyms": [
+            "Illuvium",
+            "ilv"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "immutable-x",
+          "synonyms": [
+            "Immutable X",
+            "imx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "injective-protocol",
+          "synonyms": [
+            "inj",
+            "Injective"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "internet-computer",
+          "synonyms": [
+            "icp",
+            "Internet Computer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "iostoken",
+          "synonyms": [
+            "iost"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "iota",
+          "synonyms": [
+            "IOTA",
+            "miota"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "iotex",
+          "synonyms": [
+            "IoTeX",
+            "iotx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "joe",
+          "synonyms": [
+            "joe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "juno-network",
+          "synonyms": [
+            "juno"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "just",
+          "synonyms": [
+            "jst",
+            "JUST"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "kadena",
+          "synonyms": [
+            "Kadena",
+            "kda"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "kava",
+          "synonyms": [
+            "kava"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "keep-network",
+          "synonyms": [
+            "keep",
+            "Keep Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "klay-token",
+          "synonyms": [
+            "klay",
+            "Klaytn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "kucoin-shares",
+          "synonyms": [
+            "kcs",
+            "KuCoin Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "kusama",
+          "synonyms": [
+            "ksm",
+            "Kusama"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "kyber-network-crystal",
+          "synonyms": [
+            "knc",
+            "Kyber Network Crystal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "leo-token",
+          "synonyms": [
+            "leo",
+            "LEO Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lido-dao",
+          "synonyms": [
+            "ldo",
+            "Lido DAO"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lido-staked-sol",
+          "synonyms": [
+            "Lido Staked SOL",
+            "stsol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "link",
+          "synonyms": [
+            "LINK",
+            "ln"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "liquity-usd",
+          "synonyms": [
+            "Liquity USD",
+            "lusd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lisk",
+          "synonyms": [
+            "Lisk",
+            "lsk"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "litecoin",
+          "synonyms": [
+            "Litecoin",
+            "ltc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "livepeer",
+          "synonyms": [
+            "Livepeer",
+            "lpt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "looksrare",
+          "synonyms": [
+            "looks",
+            "LooksRare"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "loopring",
+          "synonyms": [
+            "Loopring",
+            "lrc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "magic-internet-money",
+          "synonyms": [
+            "Magic Internet Money",
+            "mim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "maker",
+          "synonyms": [
+            "Maker",
+            "mkr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "maple",
+          "synonyms": [
+            "Maple",
+            "mpl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "matic-network",
+          "synonyms": [
+            "matic",
+            "Polygon"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "meerkat-shares",
+          "synonyms": [
+            "Meerkat Shares",
+            "mshare"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "metis-token",
+          "synonyms": [
+            "metis",
+            "Metis Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mimatic",
+          "synonyms": [
+            "MAI",
+            "mimatic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mina-protocol",
+          "synonyms": [
+            "mina",
+            "Mina Protocol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mmfinance",
+          "synonyms": [
+            "mmf",
+            "MMFinance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mobox",
+          "synonyms": [
+            "mbox",
+            "Mobox"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "monero",
+          "synonyms": [
+            "Monero",
+            "xmr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "moonbeam",
+          "synonyms": [
+            "glmr",
+            "Moonbeam"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "msol",
+          "synonyms": [
+            "Marinade staked SOL",
+            "msol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mxc",
+          "synonyms": [
+            "mxc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mx-token",
+          "synonyms": [
+            "mx",
+            "MX Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nano",
+          "synonyms": [
+            "Nano",
+            "xno"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "near",
+          "synonyms": [
+            "near",
+            "NEAR Protocol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nem",
+          "synonyms": [
+            "NEM",
+            "xem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "neo",
+          "synonyms": [
+            "neo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nervos-network",
+          "synonyms": [
+            "ckb",
+            "Nervos Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "neutrino",
+          "synonyms": [
+            "Neutrino USD",
+            "usdn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nexo",
+          "synonyms": [
+            "nexo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nucypher",
+          "synonyms": [
+            "nu",
+            "NuCypher"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nxm",
+          "synonyms": [
+            "Nexus Mutual",
+            "nxm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oasis-network",
+          "synonyms": [
+            "Oasis Network",
+            "rose"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oec-token",
+          "synonyms": [
+            "OEC Token",
+            "okt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "okb",
+          "synonyms": [
+            "okb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "olympus",
+          "synonyms": [
+            "ohm",
+            "Olympus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "omisego",
+          "synonyms": [
+            "omg",
+            "OMG Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ontology",
+          "synonyms": [
+            "ont",
+            "Ontology"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "osmosis",
+          "synonyms": [
+            "osmo",
+            "Osmosis"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pancakeswap-token",
+          "synonyms": [
+            "cake",
+            "PancakeSwap"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pax-gold",
+          "synonyms": [
+            "paxg",
+            "PAX Gold"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paxos-standard",
+          "synonyms": [
+            "Pax Dollar",
+            "usdp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "perpetual-protocol",
+          "synonyms": [
+            "perp",
+            "Perpetual Protocol"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "persistence",
+          "synonyms": [
+            "Persistence",
+            "xprt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pirate-chain",
+          "synonyms": [
+            "arrr",
+            "Pirate Chain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "playdapp",
+          "synonyms": [
+            "pla",
+            "PlayDapp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plex",
+          "synonyms": [
+            "plex"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pocket-network",
+          "synonyms": [
+            "Pocket Network",
+            "pokt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "polkadot",
+          "synonyms": [
+            "dot",
+            "Polkadot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "polymath",
+          "synonyms": [
+            "poly",
+            "Polymath"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "qtum",
+          "synonyms": [
+            "qtum"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quant-network",
+          "synonyms": [
+            "qnt",
+            "Quant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "radio-caca",
+          "synonyms": [
+            "raca",
+            "Radio Caca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "radix",
+          "synonyms": [
+            "Radix",
+            "xrd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rally-2",
+          "synonyms": [
+            "Rally",
+            "rly"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ravencoin",
+          "synonyms": [
+            "Ravencoin",
+            "rvn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "raydium",
+          "synonyms": [
+            "ray",
+            "Raydium"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "renbtc",
+          "synonyms": [
+            "renbtc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "render-token",
+          "synonyms": [
+            "Render Token",
+            "rndr"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "republic-protocol",
+          "synonyms": [
+            "ren"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ripple",
+          "synonyms": [
+            "xrp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rocket-pool",
+          "synonyms": [
+            "Rocket Pool",
+            "rpl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ronin",
+          "synonyms": [
+            "ron",
+            "Ronin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "safemoon",
+          "synonyms": [
+            "safemoon",
+            "SafeMoon [OLD]"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "safemoon-2",
+          "synonyms": [
+            "SafeMoon",
+            "sfm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sapphire",
+          "synonyms": [
+            "sapp",
+            "Sapphire"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "secret",
+          "synonyms": [
+            "scrt",
+            "Secret"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "serum",
+          "synonyms": [
+            "Serum",
+            "srm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "shiba-inu",
+          "synonyms": [
+            "shib",
+            "Shiba Inu"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "siacoin",
+          "synonyms": [
+            "sc",
+            "Siacoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "skale",
+          "synonyms": [
+            "SKALE",
+            "skl"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "smooth-love-potion",
+          "synonyms": [
+            "slp",
+            "Smooth Love Potion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "solana",
+          "synonyms": [
+            "sol",
+            "Solana"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "songbird",
+          "synonyms": [
+            "sgb",
+            "Songbird"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "spell-token",
+          "synonyms": [
+            "spell",
+            "Spell Token"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "staked-ether",
+          "synonyms": [
+            "Lido Staked Ether",
+            "steth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "status",
+          "synonyms": [
+            "snt",
+            "Status"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stellar",
+          "synonyms": [
+            "Stellar",
+            "xlm"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stepn",
+          "synonyms": [
+            "gmt",
+            "STEPN"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sushi",
+          "synonyms": [
+            "sushi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "swipe",
+          "synonyms": [
+            "sxp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "swissborg",
+          "synonyms": [
+            "chsb",
+            "SwissBorg"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "synapse-2",
+          "synonyms": [
+            "syn",
+            "Synapse"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "syscoin",
+          "synonyms": [
+            "sys",
+            "Syscoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "telcoin",
+          "synonyms": [
+            "tel",
+            "Telcoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tenset",
+          "synonyms": [
+            "10set",
+            "Tenset"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "terra-luna",
+          "synonyms": [
+            "luna",
+            "Terra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "terrausd",
+          "synonyms": [
+            "TerraUSD",
+            "ust"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tether",
+          "synonyms": [
+            "Tether",
+            "usdt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tether-gold",
+          "synonyms": [
+            "Tether Gold",
+            "xaut"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tezos",
+          "synonyms": [
+            "Tezos",
+            "xtz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "the-graph",
+          "synonyms": [
+            "grt",
+            "The Graph"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "the-sandbox",
+          "synonyms": [
+            "sand",
+            "The Sandbox"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "theta-fuel",
+          "synonyms": [
+            "tfuel",
+            "Theta Fuel"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "theta-token",
+          "synonyms": [
+            "theta",
+            "Theta Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thorchain",
+          "synonyms": [
+            "rune",
+            "THORChain"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "titanswap",
+          "synonyms": [
+            "titan",
+            "TitanSwap"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tokemak",
+          "synonyms": [
+            "toke",
+            "Tokemak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tomb",
+          "synonyms": [
+            "tomb"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tribe-2",
+          "synonyms": [
+            "tribe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tron",
+          "synonyms": [
+            "TRON",
+            "trx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "true-usd",
+          "synonyms": [
+            "TrueUSD",
+            "tusd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trust-wallet-token",
+          "synonyms": [
+            "Trust Wallet Token",
+            "twt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ultra",
+          "synonyms": [
+            "Ultra",
+            "uos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uma",
+          "synonyms": [
+            "uma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uniswap",
+          "synonyms": [
+            "uni",
+            "Uniswap"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "usd-coin",
+          "synonyms": [
+            "usdc",
+            "USD Coin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vechain",
+          "synonyms": [
+            "VeChain",
+            "vet"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "velas",
+          "synonyms": [
+            "Velas",
+            "vlx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vulcan-forged",
+          "synonyms": [
+            "pyr",
+            "Vulcan Forged"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vvs-finance",
+          "synonyms": [
+            "vvs",
+            "VVS Finance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "waves",
+          "synonyms": [
+            "waves"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wax",
+          "synonyms": [
+            "WAX",
+            "waxp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wazirx",
+          "synonyms": [
+            "WazirX",
+            "wrx"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wink",
+          "synonyms": [
+            "win",
+            "WINkLink"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "woo-network",
+          "synonyms": [
+            "woo",
+            "WOO Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "wrapped-bitcoin",
+          "synonyms": [
+            "wbtc",
+            "Wrapped Bitcoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "xdce-crowd-sale",
+          "synonyms": [
+            "xdc",
+            "XDC Network"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "xido-finance",
+          "synonyms": [
+            "xido",
+            "Xido Finance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yearn-finance",
+          "synonyms": [
+            "yearn.finance",
+            "yfi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zcash",
+          "synonyms": [
+            "Zcash",
+            "zec"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zelcash",
+          "synonyms": [
+            "flux"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zencash",
+          "synonyms": [
+            "Horizen",
+            "zen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zilliqa",
+          "synonyms": [
+            "zil",
+            "Zilliqa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zipmex-token",
+          "synonyms": [
+            "Zipmex Token",
+            "zmt"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "cryptos_alphavantage",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ADA",
+          "synonyms": [
+            "Cardano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BTC",
+          "synonyms": [
+            "bitcoin"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ETH",
+          "synonyms": [
+            "Ethereum"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "KT_plotTrend",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "plot",
+          "synonyms": [
+            "image"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "KT_sendEmail",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_close",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no stop",
+          "synonyms": [
+            "no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stop loss",
+          "synonyms": [
+            "stop at",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_complexity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "advanced",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "basic",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "order_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "at market",
+          "synonyms": [
+            "market, best"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "limit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stop market",
+          "synonyms": [
+            "best market",
+            "stop"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "nah",
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "yup"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stocks",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AAPL",
+          "synonyms": [
+            "Apple Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABB",
+          "synonyms": [
+            "ABB Ltd"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABBV",
+          "synonyms": [
+            "AbbVie Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABEV",
+          "synonyms": [
+            "Ambev S.A. American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABNB",
+          "synonyms": [
+            "Airbnb Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ABT",
+          "synonyms": [
+            "Abbott Laboratories"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ACN",
+          "synonyms": [
+            "Accenture plc Class A Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ADBE",
+          "synonyms": [
+            "Adobe Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ADI",
+          "synonyms": [
+            "Analog Devices Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ADM",
+          "synonyms": [
+            "Archer-Daniels-Midland Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ADP",
+          "synonyms": [
+            "Automatic Data Processing Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AEP",
+          "synonyms": [
+            "American Electric Power Company Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AIG",
+          "synonyms": [
+            "American International Group Inc. New"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMAT",
+          "synonyms": [
+            "Applied Materials Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMD",
+          "synonyms": [
+            "Advanced Micro Devices Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMGN",
+          "synonyms": [
+            "Amgen Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMOV",
+          "synonyms": [
+            "America Movil S.A.B. de C.V. Class A American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMT",
+          "synonyms": [
+            "American Tower Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMX",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AMZN",
+          "synonyms": [
+            "Amazon",
+            "Amazon.com",
+            "Amazon.com Inc.",
+            "Bezos",
+            "Jeff"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ANTM",
+          "synonyms": [
+            "Anthem Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AON",
+          "synonyms": [
+            "Aon plc Class A Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "APD",
+          "synonyms": [
+            "Air Products and Chemicals Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ASML",
+          "synonyms": [
+            "ASML Holding N.V. New York Registry Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ATVI",
+          "synonyms": [
+            "Activision Blizzard Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AVGO",
+          "synonyms": [
+            "Broadcom Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AXP",
+          "synonyms": [
+            "American Express Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AZN",
+          "synonyms": [
+            "AstraZeneca PLC American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BA",
+          "synonyms": [
+            "Boeing Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BABA",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BAC",
+          "synonyms": [
+            "Bank of America Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BAM",
+          "synonyms": [
+            "Brookfield Asset Management Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BCE",
+          "synonyms": [
+            "BCE Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BDX",
+          "synonyms": [
+            "Becton Dickinson and Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BHP",
+          "synonyms": [
+            "BHP Group Limited American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BKNG",
+          "synonyms": [
+            "Booking Holdings Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BLK",
+          "synonyms": [
+            "BlackRock Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BMO",
+          "synonyms": [
+            "Bank Of Montreal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BMY",
+          "synonyms": [
+            "Bristol-Myers Squibb Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BNS",
+          "synonyms": [
+            "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BP",
+          "synonyms": [
+            "BP p.l.c."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BSBR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "BSX",
+          "synonyms": [
+            "Boston Scientific Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BTI",
+          "synonyms": [
+            "British American Tobacco  Industries p.l.c.  ADR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BUD",
+          "synonyms": [
+            "Anheuser-Busch Inbev SA Sponsored ADR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "BX",
+          "synonyms": [
+            "Blackstone Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C",
+          "synonyms": [
+            "Citigroup Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CAT",
+          "synonyms": [
+            "Caterpillar Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CB",
+          "synonyms": [
+            "Chubb Limited"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CCI",
+          "synonyms": [
+            "Crown Castle International Corp."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CHTR",
+          "synonyms": [
+            "Charter Communications Inc. Class A  New"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CI",
+          "synonyms": [
+            "Cigna Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CL",
+          "synonyms": [
+            "Colgate-Palmolive Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CM",
+          "synonyms": [
+            "Canadian Imperial Bank of Commerce"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CMCSA",
+          "synonyms": [
+            "Comcast Corporation Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CME",
+          "synonyms": [
+            "CME Group Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CNC",
+          "synonyms": [
+            "Centene Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CNI",
+          "synonyms": [
+            "Canadian National Railway Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CNQ",
+          "synonyms": [
+            "Canadian Natural Resources Limited"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COF",
+          "synonyms": [
+            "Capital One Financial Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COP",
+          "synonyms": [
+            "ConocoPhillips"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "COST",
+          "synonyms": [
+            "Costco Wholesale Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CP",
+          "synonyms": [
+            "Canadian Pacific Railway Limited"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CRM",
+          "synonyms": [
+            "Salesforce Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CRWD",
+          "synonyms": [
+            "CrowdStrike Holdings Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CSCO",
+          "synonyms": [
+            "Cisco Systems Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CSX",
+          "synonyms": [
+            "CSX Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CVS",
+          "synonyms": [
+            "CVS Health Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "CVX",
+          "synonyms": [
+            "Chevron Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D",
+          "synonyms": [
+            "Dominion Energy Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DCI",
+          "synonyms": [
+            "Donaldson Company Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DE",
+          "synonyms": [
+            "Deere & Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DEO",
+          "synonyms": [
+            "Diageo plc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DG",
+          "synonyms": [
+            "Dollar General Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DHR",
+          "synonyms": [
+            "Danaher Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DIS",
+          "synonyms": [
+            "Walt Disney Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DOW",
+          "synonyms": [
+            "Dow Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "DUK",
+          "synonyms": [
+            "Duke Energy Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "E",
+          "synonyms": [
+            "ENI S.p.A."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ECL",
+          "synonyms": [
+            "Ecolab Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EL",
+          "synonyms": [
+            "Estee Lauder Companies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EMR",
+          "synonyms": [
+            "Emerson Electric Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ENB",
+          "synonyms": [
+            "Enbridge Inc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EOG",
+          "synonyms": [
+            "EOG Resources Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EPD",
+          "synonyms": [
+            "Enterprise Products Partners L.P."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EQIX",
+          "synonyms": [
+            "Equinix Inc.  REIT"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EQNR",
+          "synonyms": [
+            "Equinor ASA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ETN",
+          "synonyms": [
+            "Eaton Corporation PLC Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "EW",
+          "synonyms": [
+            "Edwards Lifesciences Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "F",
+          "synonyms": [
+            "Ford Motor Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FB",
+          "synonyms": [
+            "Meta Platforms Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FCX",
+          "synonyms": [
+            "Freeport-McMoRan Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FDX",
+          "synonyms": [
+            "FedEx Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FIS",
+          "synonyms": [
+            "Fidelity National Information Services Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FISV",
+          "synonyms": [
+            "Fiserv Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FMX",
+          "synonyms": [
+            "Fomento Economico Mexicano S.A.B. de C.V."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "FTNT",
+          "synonyms": [
+            "Fortinet Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GD",
+          "synonyms": [
+            "General Dynamics Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GE",
+          "synonyms": [
+            "General Electric Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GILD",
+          "synonyms": [
+            "Gilead Sciences Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GM",
+          "synonyms": [
+            "General Motors Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GOOG",
+          "synonyms": [
+            "Alphabet",
+            "Alphabet Inc. Class C",
+            "Google"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GOOGL",
+          "synonyms": [
+            "Alphabet Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GS",
+          "synonyms": [
+            "Goldman Sachs Group Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GSK",
+          "synonyms": [
+            "GlaxoSmithKline PLC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HCA",
+          "synonyms": [
+            "HCA Healthcare Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HD",
+          "synonyms": [
+            "Home Depot Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HDB",
+          "synonyms": [
+            "HDFC Bank Limited"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HON",
+          "synonyms": [
+            "Honeywell International Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HSBC",
+          "synonyms": [
+            "HSBC Holdings plc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HUM",
+          "synonyms": [
+            "Humana Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IBM",
+          "synonyms": [
+            "IBM Common Stock",
+            "International Business Machines",
+            "International Business Machines Corporation",
+            "NYSE: IBM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "IBN",
+          "synonyms": [
+            "ICICI Bank Limited"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ICE",
+          "synonyms": [
+            "Intercontinental Exchange Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ILMN",
+          "synonyms": [
+            "Illumina Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "INFY",
+          "synonyms": [
+            "Infosys Limited American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "INTC",
+          "synonyms": [
+            "Intel Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "INTU",
+          "synonyms": [
+            "Intuit Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ISRG",
+          "synonyms": [
+            "Intuitive Surgical Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ITUB",
+          "synonyms": [
+            "Itau Unibanco Banco Holding SA American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ITW",
+          "synonyms": [
+            "Illinois Tool Works Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JD",
+          "synonyms": [
+            "JD.com Inc. American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JNJ",
+          "synonyms": [
+            "Johnson & Johnson"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JPM",
+          "synonyms": [
+            "JP Morgan Chase & Co."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KDP",
+          "synonyms": [
+            "Keurig Dr Pepper Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KHC",
+          "synonyms": [
+            "The Kraft Heinz Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KLAC",
+          "synonyms": [
+            "KLA Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "KO",
+          "synonyms": [
+            "Coca-Cola Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LHX",
+          "synonyms": [
+            "L3Harris Technologies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LIN",
+          "synonyms": [
+            "Linde plc Ordinary Share"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LLY",
+          "synonyms": [
+            "Eli Lilly and Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LMT",
+          "synonyms": [
+            "Lockheed Martin Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LOW",
+          "synonyms": [
+            "Lowe's Companies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LRCX",
+          "synonyms": [
+            "Lam Research Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "LULU",
+          "synonyms": [
+            "lululemon athletica inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MA",
+          "synonyms": [
+            "Mastercard Incorporated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MAR",
+          "synonyms": [
+            "Marriott International Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MCD",
+          "synonyms": [
+            "McDonald's Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MCK",
+          "synonyms": [
+            "McKesson Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MCO",
+          "synonyms": [
+            "Moody's Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MDLZ",
+          "synonyms": [
+            "Mondelez International Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MDT",
+          "synonyms": [
+            "Medtronic plc. Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MELI",
+          "synonyms": [
+            "MercadoLibre Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MET",
+          "synonyms": [
+            "MetLife Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MMC",
+          "synonyms": [
+            "Marsh & McLennan Companies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MMM",
+          "synonyms": [
+            "3M Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MO",
+          "synonyms": [
+            "Altria Group Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MPC",
+          "synonyms": [
+            "Marathon Petroleum Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MRK",
+          "synonyms": [
+            "Merck & Company Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MRNA",
+          "synonyms": [
+            "Covid",
+            "Moderna",
+            "Moderna Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MRVL",
+          "synonyms": [
+            "Marvell Technology Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MS",
+          "synonyms": [
+            "Morgan Stanley"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MSFT",
+          "synonyms": [
+            "Microsoft Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MU",
+          "synonyms": [
+            "Micron Technology Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "MUFG",
+          "synonyms": [
+            "Mitsubishi UFJ Financial Group Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NEE",
+          "synonyms": [
+            "NextEra Energy Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NEM",
+          "synonyms": [
+            "Newmont Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NFLX",
+          "synonyms": [
+            "Netflix",
+            "Netflix Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NGG",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "NKE",
+          "synonyms": [
+            "Air",
+            "Jordan",
+            "Nike",
+            "Nike Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NOC",
+          "synonyms": [
+            "Northrop Grumman Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NOW",
+          "synonyms": [
+            "ServiceNow Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NSC",
+          "synonyms": [
+            "Norfolk Southern Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NTES",
+          "synonyms": [
+            "NetEase Inc. American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NTR",
+          "synonyms": [
+            "Nutrien Ltd. Common Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NVDA",
+          "synonyms": [
+            "Nvidia",
+            "NVIDIA Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NVO",
+          "synonyms": [
+            "Novo Nordisk A/S"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "NVS",
+          "synonyms": [
+            "Novartis AG"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ORCL",
+          "synonyms": [
+            "Oracle Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "OXY",
+          "synonyms": [
+            "Occidental Petroleum Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PANW",
+          "synonyms": [
+            "Palo Alto Networks Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PAYX",
+          "synonyms": [
+            "Paychex Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PBR",
+          "synonyms": [
+            "Petroleo Brasileiro S.A.- Petrobras"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PDD",
+          "synonyms": [
+            "Pinduoduo Inc. American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PEP",
+          "synonyms": [
+            "PepsiCo Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PFE",
+          "synonyms": [
+            "Pfizer Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PG",
+          "synonyms": [
+            "Procter & Gamble Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PGR",
+          "synonyms": [
+            "Progressive Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PLD",
+          "synonyms": [
+            "Prologis Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PM",
+          "synonyms": [
+            "Philip Morris International Inc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PNC",
+          "synonyms": [
+            "PNC Financial Services Group Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PSA",
+          "synonyms": [
+            "Public Storage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PTR",
+          "synonyms": [
+            "PetroChina Company Limited"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PXD",
+          "synonyms": [
+            "Pioneer Natural Resources Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "PYPL",
+          "synonyms": [
+            "Paypal",
+            "PayPal Holdings Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "QCOM",
+          "synonyms": [
+            "QUALCOMM Incorporated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "REGN",
+          "synonyms": [
+            "Regeneron Pharmaceuticals Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RELX",
+          "synonyms": [
+            "RELX PLC PLC American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RIO",
+          "synonyms": [
+            "Rio Tinto Plc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ROP",
+          "synonyms": [
+            "Roper Technologies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RTX",
+          "synonyms": [
+            "Raytheon Technologies Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "RY",
+          "synonyms": [
+            "Royal Bank Of Canada"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SAN",
+          "synonyms": [
+            "Banco Santander S.A. Sponsored ADR"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SAP",
+          "synonyms": [
+            "SAP  SE ADS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SBUX",
+          "synonyms": [
+            "Starbucks Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SCCO",
+          "synonyms": [
+            "Southern Copper Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SCHW",
+          "synonyms": [
+            "Charles Schwab Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SHEL",
+          "synonyms": [
+            "Royal Dutch Shell PLC American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SHOP",
+          "synonyms": [
+            "Shopify Inc. Class A Subordinate Voting Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SHW",
+          "synonyms": [
+            "Sherwin-Williams Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SLB",
+          "synonyms": [
+            "Schlumberger N.V."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SNAP",
+          "synonyms": [
+            "Snap Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SNOW",
+          "synonyms": [
+            "Snowflake Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SNP",
+          "synonyms": [
+            "China Petroleum & Chemical Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SNY",
+          "synonyms": [
+            "Sanofi ADS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SO",
+          "synonyms": [
+            "Southern Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SONY",
+          "synonyms": [
+            "Sony Group Corporation American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SPGI",
+          "synonyms": [
+            "S&P Global Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SQ",
+          "synonyms": [
+            "Block",
+            "Block Inc.",
+            "Block Inc. Class A",
+            "Square"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SRE",
+          "synonyms": [
+            "DBA Sempra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SU",
+          "synonyms": [
+            "Suncor Energy  Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SYK",
+          "synonyms": [
+            "Stryker Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "T",
+          "synonyms": [
+            "AT&T Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TD",
+          "synonyms": [
+            "Toronto Dominion Bank"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TEAM",
+          "synonyms": [
+            "Atlassian Corporation Plc Class A Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TFC",
+          "synonyms": [
+            "Truist Financial Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TGT",
+          "synonyms": [
+            "Target Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TJX",
+          "synonyms": [
+            "TJX Companies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TM",
+          "synonyms": [
+            "Toyota Motor Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TMO",
+          "synonyms": [
+            "Thermo Fisher Scientific Inc"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TMUS",
+          "synonyms": [
+            "T-Mobile US Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TRI",
+          "synonyms": [
+            "Thomson Reuters Corp Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TRP",
+          "synonyms": [
+            "TC Energy Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TSLA",
+          "synonyms": [
+            "Elon",
+            "Musk",
+            "Tesla",
+            "Tesla Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TSM",
+          "synonyms": [
+            "Taiwan Semiconductor Manufacturing Company Ltd."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TTE",
+          "synonyms": [
+            "TotalEnergies SE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TXN",
+          "synonyms": [
+            "Texas Instruments Incorporated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UBER",
+          "synonyms": [
+            "Uber Technologies Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UBS",
+          "synonyms": [
+            "UBS Group AG Registered Ordinary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UL",
+          "synonyms": [
+            "Unilever PLC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UNH",
+          "synonyms": [
+            "UnitedHealth Group Incorporated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UNP",
+          "synonyms": [
+            "Union Pacific Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UPS",
+          "synonyms": [
+            "United Parcel Service Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "USB",
+          "synonyms": [
+            "U.S. Bancorp"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "V",
+          "synonyms": [
+            "Visa Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VALE",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "VFC",
+          "synonyms": [
+            "V.F. Corporation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VOD",
+          "synonyms": [
+            "Vodafone Group Plc American Depositary Shares"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VRTX",
+          "synonyms": [
+            "Vertex Pharmaceuticals Incorporated"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "VZ",
+          "synonyms": [
+            "Verizon Communications Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WBD",
+          "synonyms": [
+            "Warner Bros. Discovery Inc. Series A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WDAY",
+          "synonyms": [
+            "Workday Inc. Class A"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WFC",
+          "synonyms": [
+            "Wells Fargo & Company"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WM",
+          "synonyms": [
+            "Waste Management Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "WMT",
+          "synonyms": [
+            "Walmart Inc."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "XOM",
+          "synonyms": [
+            "ESSO",
+            "Exxon",
+            "Exxon Mobil Corporation",
+            "Exxon Mobile",
+            "Oil"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ZTS",
+          "synonyms": [
+            "Zoetis Inc. Class A"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "summary",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "conversation",
+          "synonyms": [
+            "chat"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "summary",
+          "synonyms": [
+            "history",
+            "recap",
+            "record"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "trade_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "buy",
+          "synonyms": [
+            "purchase"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sell",
+          "synonyms": [
+            "put on sale"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "trends",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "reddit",
+          "synonyms": [
+            "internet",
+            "social media"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trends",
+          "synonyms": [
+            "hype",
+            "popular",
+            "trends"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-de.functions.appdomain.cloud/api/v1/web/e9128098-b020-4d10-835a-3648d926996c/default/all_external_actions.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing. "
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding. "
+              },
+              {
+                "text": "I didn't get your meaning. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1652162169090",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1649229469292",
+      "context": {
+        "order_complexity": "@order_complexity"
+      },
+      "conditions": "@order_complexity",
+      "event_name": "input",
+      "dialog_node": "handler_10_1649229469305"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1652719755015",
+      "context": {
+        "order_close_price": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1652719755029"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to add a stop loss price? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1652723055046",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1652723055061",
+      "previous_sibling": "handler_2_1652723055061"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1652719015242",
+      "context": {
+        "instrument_price": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1652719015256"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me the stop price"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_8_1652720790308",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1652720790324",
+      "previous_sibling": "handler_3_1652720790324"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1649245595353",
+      "context": {
+        "trade_type": "@trade_type"
+      },
+      "conditions": "@trade_type",
+      "event_name": "input",
+      "dialog_node": "handler_2_1649245595354"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1652717287697",
+      "context": {
+        "order_type": "@order_type"
+      },
+      "conditions": "@order_type",
+      "event_name": "input",
+      "dialog_node": "handler_2_1652717287699"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me the stop loss price"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1652719755015",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1652719755029",
+      "previous_sibling": "handler_10_1652719755029"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1652723055046",
+      "context": {
+        "order_close_binary": "@order_close"
+      },
+      "conditions": "@order_close",
+      "event_name": "input",
+      "dialog_node": "handler_2_1652723055061"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to buy at market, limit or stop?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1652717619758",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1652717619772",
+      "previous_sibling": "handler_8_1652717619772"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1652720790308",
+      "context": {
+        "order_close": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1652720790324"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1652717287697",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1652717287699",
+      "previous_sibling": "handler_2_1652717287699"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sorry I couldn't find the instrument. Please choose one again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1649247056621",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1649247056623",
+      "previous_sibling": "handler_6_1649247056623"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How many?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1649249661648",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1649249661649",
+      "previous_sibling": "handler_7_1649249661649"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me at which $order_type price you want to $trade_type $instrument?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1652719015242",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1652719015256",
+      "previous_sibling": "handler_1_1652719015256"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me if you want to use the 'basic' or 'advanced' order system"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1649229469292",
+      "context": {
+        "order_complexity": "basic"
+      },
+      "event_name": "focus",
+      "dialog_node": "handler_6_1649229469305",
+      "previous_sibling": "handler_10_1649229469305"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me if you want to buy or sell"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1649245595353",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1649245595354",
+      "previous_sibling": "handler_2_1649245595354"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1649247056621",
+      "context": {
+        "instrument": "@cryptos @stocks"
+      },
+      "conditions": "@cryptos || @stocks",
+      "event_name": "input",
+      "dialog_node": "handler_6_1649247056623"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1649249661648",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_7_1649249661649"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1652717619758",
+      "context": {
+        "order_type": "@order_type"
+      },
+      "conditions": "@order_type",
+      "event_name": "input",
+      "dialog_node": "handler_8_1652717619772"
+    },
+    {
+      "type": "standard",
+      "title": "Feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your feedbacks. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#General_Positive_Feedback || #General_Negative_Feedback",
+      "dialog_node": "node_10_1648890300621",
+      "previous_sibling": "node_2_1648892028242"
+    },
+    {
+      "type": "standard",
+      "title": "INFO from alpha vantage",
+      "output": {},
+      "parent": "node_9_1648892944681",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@stocks",
+            "category": "alphavantage"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@stocks",
+      "dialog_node": "node_1_1648661343889"
+    },
+    {
+      "type": "standard",
+      "title": "Trends for stocks",
+      "parent": "node_2_1648892129176",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "stock",
+            "category": "apewisdom_stocks_best10"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#stocks_trend && @asset_classes:stock",
+      "dialog_node": "node_1_1649084554628",
+      "previous_sibling": "node_5_1648750788997"
+    },
+    {
+      "type": "frame",
+      "title": "Order choose advanced",
+      "parent": "node_2_1648892028242",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1652334187421"
+      },
+      "conditions": "@order_complexity:advanced || $order_complexity == \"advanced\"",
+      "dialog_node": "node_1_1649229227635",
+      "previous_sibling": "slot_7_1652717287697"
+    },
+    {
+      "type": "standard",
+      "title": "FAQ",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#faq",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1649684611051",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1649688960741",
+      "conditions": "@response:yes",
+      "dialog_node": "node_1_1649690965269",
+      "previous_sibling": "node_9_1649690908732"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to know the trend for a specific stock? $MN_TrendandNews_L2CN_Stocks",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "I want to know about a specific stock."
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1649084554628",
+      "context": {},
+      "conditions": "#stocks_trend && @asset_classes:stock",
+      "dialog_node": "node_1_1649692517948"
+    },
+    {
+      "type": "standard",
+      "title": "Trending Cryptos coinspecific ",
+      "output": {},
+      "parent": "node_3_1649689883397",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@cryptos",
+            "category": "apewisdom_cryptos"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@cryptos",
+      "dialog_node": "node_1_1649796680353"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me the symbol of the stock you want to know. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1649692517948",
+      "context": {},
+      "conditions": "#learn_about_a_specific_stock",
+      "dialog_node": "node_1_1650401898552"
+    },
+    {
+      "type": "frame",
+      "title": "Advanced non-market orders",
+      "parent": "node_1_1649229227635",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1652722973466"
+      },
+      "conditions": "@order_type != \"at market\"",
+      "dialog_node": "node_1_1652718621329"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me the name of the stock you want to know."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1648933057454",
+      "conditions": "#stocks_info",
+      "dialog_node": "node_1_1653046145466",
+      "previous_sibling": "node_7_1653045602298"
+    },
+    {
+      "type": "standard",
+      "title": "Stock Chart_stocks",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@stocks",
+            "category": "plot_trend_stocks"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1653470887322",
+      "previous_sibling": "node_4_1653465635705"
+    },
+    {
+      "type": "standard",
+      "parent": "node_3_1653476769281",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@cryptos_alphavantage",
+            "category": "plot_trend_cryptos"
+          },
+          "result_variable": "webhook_result_12"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@cryptos_alphavantage",
+      "dialog_node": "node_1_1653471066278"
+    },
+    {
+      "type": "standard",
+      "title": "Connect to human agents",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As you wish, we are connecting you to a human agent. It might take a few seconds. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1648892381080",
+      "context": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_2_1648656072846",
+      "previous_sibling": "node_2_1648894549322"
+    },
+    {
+      "type": "frame",
+      "title": "Order overview",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#order_buy_and_sell",
+      "dialog_node": "node_2_1648892028242",
+      "previous_sibling": "node_2_1648892129176"
+    },
+    {
+      "type": "standard",
+      "title": "Trend and News",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#crypto_trend || #news_alerts || #trends || #stocks_trend",
+      "dialog_node": "node_2_1648892129176",
+      "previous_sibling": "node_1_1653470887322"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings, identity and human agent connect",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#General_About_You || #General_Greetings || #about_bank || #General_Connect_to_Agent && intents[0].confidence >0.8",
+      "dialog_node": "node_2_1648892381080",
+      "previous_sibling": "node_1_1649684611051"
+    },
+    {
+      "type": "standard",
+      "title": "About YO Bank",
+      "parent": "node_2_1648892381080",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#about_bank",
+      "dialog_node": "node_2_1648894549322",
+      "previous_sibling": "node_8_1648653011194"
+    },
+    {
+      "type": "standard",
+      "title": "Trending Stocks stockspecific ",
+      "output": {},
+      "parent": "node_1_1650401898552",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@stocks",
+            "category": "apewisdom_stocks"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@stocks",
+      "dialog_node": "node_2_1650401898554"
+    },
+    {
+      "type": "frame",
+      "title": "stop",
+      "parent": "node_1_1649229227635",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1652722973466",
+      "previous_sibling": "node_1_1652718621329"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1653046145466",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@stocks",
+            "category": "alphavantage"
+          },
+          "result_variable": "webhook_result_10"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@stocks",
+      "dialog_node": "node_2_1653046145469"
+    },
+    {
+      "type": "standard",
+      "title": "Trending Cryptos coinspecific",
+      "output": {},
+      "parent": "node_2_1648892129176",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@cryptos",
+            "category": "apewisdom_cryptos"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@cryptos && #crypto_trend",
+      "dialog_node": "node_3_1648898034453",
+      "previous_sibling": "node_5_1649084665603"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me the name of the coin you want to know. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1649688740153",
+      "context": {},
+      "conditions": "#learn_about_a_specific_coin",
+      "dialog_node": "node_3_1649689883397"
+    },
+    {
+      "type": "standard",
+      "title": "Any other help needed?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you with?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1649692517948",
+      "context": {
+        "MN_TrendandNews_L3CN_Help": "MN_TrendandNews_L3CN_Help"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_3_1649692517951",
+      "previous_sibling": "node_1_1650401898552"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel Order Variables",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for trading with YOYO"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1648892028242",
+      "context": {
+        "number": "Null",
+        "instrument": "Null",
+        "order_type": "Null",
+        "trade_type": "Null",
+        "order_complexity": "Null"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1648461519267"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1652334187421",
+      "previous_sibling": "node_1_1649229227635"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "l1"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1652161446050",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1653471066278"
+      },
+      "conditions": "@cryptos",
+      "dialog_node": "node_3_1653476769281"
+    },
+    {
+      "type": "standard",
+      "title": "Info Portal",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#crypto_info || #stocks_info",
+      "dialog_node": "node_4_1648892813501",
+      "previous_sibling": "node_2_1648892381080"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_3_1649692517951",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1648461519267"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_4_1649692517951"
+    },
+    {
+      "type": "standard",
+      "title": "Chart",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "show instrument @cryptos @stocks"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@chart || #stocks_cryptos_chart",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1652161446050",
+      "previous_sibling": "node_4_1648892813501"
+    },
+    {
+      "type": "standard",
+      "title": "Cryptos Chart",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@cryptos",
+            "category": "plot_trend_cryptos"
+          },
+          "result_variable": "webhook_result_4"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1653465635705",
+      "previous_sibling": "node_4_1652161446050"
+    },
+    {
+      "type": "standard",
+      "parent": "node_4_1652161446050",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@stocks",
+            "category": "plot_trend_stocks"
+          },
+          "result_variable": "webhook_result_11"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@stocks",
+      "dialog_node": "node_4_1653471044884",
+      "previous_sibling": "node_3_1653476769281"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey, <? input.text ?>! It's lovely to meet you. How can I help you today?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1648653011194",
+      "context": {
+        "username": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1648653608598"
+    },
+    {
+      "type": "standard",
+      "title": "General_Positive_Feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yay! I'm glad that you're satisfied. Anytime anywhere, I'm happy to help. You know where to find me ;) "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1648890300621",
+      "context": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_5_1648656982062"
+    },
+    {
+      "type": "standard",
+      "title": "Trending Cryptos",
+      "parent": "node_2_1648892129176",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "crypto",
+            "category": "apewisdom_cryptos_best10"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#crypto_trend && @asset_classes:crypto",
+      "dialog_node": "node_5_1648750788997"
+    },
+    {
+      "type": "standard",
+      "title": "Trends without specific asset",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like the trend for cryptos or stocks?",
+            "options": [
+              {
+                "label": "Cryptos",
+                "value": {
+                  "input": {
+                    "text": "tell me about the cryptos trends"
+                  }
+                }
+              },
+              {
+                "label": "Stocks",
+                "value": {
+                  "input": {
+                    "text": "tell me about the stocks trends"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1648892129176",
+      "context": {},
+      "conditions": "@trends || #trends",
+      "dialog_node": "node_5_1649084665603",
+      "previous_sibling": "node_1_1649084554628"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1649692517951",
+      "conditions": "@response:yes",
+      "dialog_node": "node_5_1649692517951",
+      "previous_sibling": "node_4_1649692517951"
+    },
+    {
+      "type": "standard",
+      "title": "INFO from coingecko",
+      "parent": "node_7_1648893002422",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@cryptos",
+            "category": "coingecko"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@cryptos",
+      "dialog_node": "node_6_1648148719501"
+    },
+    {
+      "type": "standard",
+      "title": "General_Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Goodbye. I’ll be around whenever you need me, amigo. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_6_1648461519267",
+      "previous_sibling": "node_10_1648890300621"
+    },
+    {
+      "type": "standard",
+      "title": "Any other help needed?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is there anything else I can help you with? $MN_TrendandNews_L3CN_Help"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1649688740153",
+      "context": {},
+      "conditions": "@response:no",
+      "dialog_node": "node_6_1649688960741",
+      "previous_sibling": "node_3_1649689883397"
+    },
+    {
+      "type": "standard",
+      "title": "Crypto Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's find some info about your coin."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1648892813501",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1648148719501"
+      },
+      "conditions": "#crypto_info && @cryptos",
+      "dialog_node": "node_7_1648893002422"
+    },
+    {
+      "type": "standard",
+      "title": "Info without giving name",
+      "parent": "node_4_1648892813501",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#crypto_info || #stocks_info",
+      "dialog_node": "node_7_1648933057454",
+      "previous_sibling": "node_9_1648892944681"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to know the trend for a specific coin? $MN_TrendandNews_L2CN_Crypto",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "I want to know about a specific coin"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1648750788997",
+      "context": {},
+      "conditions": "#crypto_trend && @asset_classes:crypto",
+      "dialog_node": "node_7_1649688740153"
+    },
+    {
+      "type": "standard",
+      "title": "Get summary ",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "conv_id": "$conversation_id",
+            "category": "create_email"
+          },
+          "result_variable": "webhook_result_7"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#get_summary && @summary",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1652162169090",
+      "previous_sibling": "node_6_1648461519267"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please tell me the name of the coin you want to know."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1648933057454",
+      "conditions": "#crypto_info",
+      "dialog_node": "node_7_1653045602298"
+    },
+    {
+      "type": "standard",
+      "title": "General_Greetings",
+      "parent": "node_2_1648892381080",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_8_1648459105294"
+    },
+    {
+      "type": "standard",
+      "title": "User ask the bot identity ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am Yoyo, the newest Yo Bank talent member, aka a virtual assistant that is designed to answer your questions. I'm 25 according to my virtual world, speak English and my passion is helping you. How should I call you? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1648892381080",
+      "context": {},
+      "conditions": "#General_About_You",
+      "dialog_node": "node_8_1648653011194",
+      "previous_sibling": "node_8_1648459105294"
+    },
+    {
+      "type": "frame",
+      "title": "stop loss",
+      "parent": "node_2_1652722973466",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1652334187421"
+      },
+      "conditions": "@order_close",
+      "dialog_node": "node_8_1652719370848",
+      "previous_sibling": "slot_2_1652723055046"
+    },
+    {
+      "type": "frame",
+      "title": "set stop price",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I execute the trade and add a stop loss at $order_close"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1652719370848",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1652334187421"
+      },
+      "conditions": "@order_close:(stop loss)",
+      "dialog_node": "node_8_1652720750665"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1653045602298",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "symbol": "@cryptos",
+            "category": "coingecko"
+          },
+          "result_variable": "webhook_result_9"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@cryptos",
+      "dialog_node": "node_8_1653045710002"
+    },
+    {
+      "type": "standard",
+      "title": "General_Negative_Feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ohhhh...I'm very sorry :( I will drink brain boosters, constantly learn and improve. Please don't hate me. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1648890300621",
+      "context": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_9_1648657451927",
+      "previous_sibling": "node_5_1648656982062"
+    },
+    {
+      "type": "standard",
+      "title": "Stock Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let's find some info about your stock"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1648892813501",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#stocks_info && @stocks",
+      "dialog_node": "node_9_1648892944681",
+      "previous_sibling": "node_7_1648893002422"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1649688960741",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1648461519267"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_9_1649690908732"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_1.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1648148719501",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_10_1648148763411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need more information about how to execute your order"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1648892028242",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1649229227635"
+      },
+      "conditions": "$order_complexity == \"advanced\"",
+      "dialog_node": "response_10_1649229670254",
+      "previous_sibling": "response_1_1649229654263"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! I'll $trade_type $number of $instrument."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1648892028242",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1652334187421"
+      },
+      "conditions": "$order_complexity == \"basic\"",
+      "dialog_node": "response_1_1649229654263"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "oops it's not working"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1648750788997",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1649587477684",
+      "previous_sibling": "response_3_1648753298235"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_1.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1648661343889",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_2_1648661343892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_3.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1649084554628",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_2_1649084575312",
+      "previous_sibling": "node_1_1649692517948"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_3.response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1649796680353",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_2_1649796680355"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_9.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1653045710002",
+      "conditions": "$webhook_result_9",
+      "dialog_node": "response_2_1653045731211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_4.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1653470887322",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_2_1653470887324"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Oooops... seems it doesn't work!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1648661343889",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1648661343892",
+      "previous_sibling": "response_2_1648661343892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_3.response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1648750788997",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_3_1648753298235",
+      "previous_sibling": "node_7_1649688740153"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_3.response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1650401898554",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_3_1650401898554"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok I $trade_type $number $order_type of $instrument"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1649229227635",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1652722973466"
+      },
+      "conditions": "@order_type:(at market)",
+      "dialog_node": "response_3_1652717619496",
+      "previous_sibling": "slot_2_1652717619758"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1649229227635",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1652718621329"
+      },
+      "conditions": "@order_type != \"at market\"",
+      "dialog_node": "response_3_1652718278278",
+      "previous_sibling": "response_3_1652717619496"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "ooops...it's not working"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1653045710002",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1653045731862",
+      "previous_sibling": "response_2_1653045731211"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_10.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1653046145469",
+      "conditions": "$webhook_result_10",
+      "dialog_node": "response_3_1653046145469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "oops, it doesn't work"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1653470887322",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1653470887324",
+      "previous_sibling": "response_2_1653470887324"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good to see ya!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1648459105294",
+      "dialog_node": "response_4_1648653962796",
+      "previous_sibling": "response_9_1648653934147"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "source": "https://i.pinimg.com/564x/41/18/2c/41182c24ea0c3faefed3023d8fd2be40.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Who we are?\nYo Bank is a neo-bank, building the world’s truly global financial super app to help people get more from their money. In 2015, Yo launched in Switzerland, offering money transfers and exchanges. Today, our customers worldwide use dozens of Yo’s innovative products to make more than 150 million transactions a month. Moreover, Yo bank also manages the portfolio and makes the trading transaction of various financial instruments based on requests.\n\nAcross our personal and business accounts, we help customers improve their financial health, give them more control, and connect people seamlessly across the world."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1648894549322",
+      "context": {
+        "MN_Greetings_L1CN_AboutYOBank": "MN_Greetings_L1CN_AboutYOBank"
+      },
+      "conditions": "#about_bank",
+      "dialog_node": "response_4_1648894582509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_3.response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1648898034453",
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_4_1648898034455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok please tell me the stop loss price"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1652722973466",
+      "conditions": "$order_close_binary=='stop loss'",
+      "dialog_node": "response_4_1652723491529",
+      "previous_sibling": "response_6_1652723165651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "ooops...it's not working"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1653046145469",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1653046145469",
+      "previous_sibling": "response_3_1653046145469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Oooops... seems it doesn't work!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1648148719501",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1648148764615",
+      "previous_sibling": "response_10_1648148763411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_4.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1653465635705",
+      "conditions": "$webhook_result_4",
+      "dialog_node": "response_5_1653465635709"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "oops it doesn't work"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1653471044884",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1653471091350",
+      "previous_sibling": "response_9_1653471090842"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "oops it's not working"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1649084554628",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1649587425622",
+      "previous_sibling": "response_2_1649084575312"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_7.response",
+            "Our conversation has been sent to your email."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1652162169090",
+      "conditions": "$webhook_result_7",
+      "dialog_node": "response_6_1652162259581"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, I execute your trade and add a stop loss at the price of $order_close_price"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1652719370848",
+      "context": {},
+      "conditions": "$order_close_price",
+      "dialog_node": "response_6_1652720185259",
+      "previous_sibling": "slot_6_1652719755015"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! I'll $trade_type $number of $instrument  without a stop loss."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1652722973466",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1652334187421"
+      },
+      "conditions": "$order_close_binary=='no stop'",
+      "dialog_node": "response_6_1652723165651"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "oops, it doesn't work"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1653465635705",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1653465635709",
+      "previous_sibling": "response_5_1653465635709"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "you set a price of $instrument_price."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1652718621329",
+      "conditions": "$instrument_price",
+      "dialog_node": "response_7_1652719014833",
+      "previous_sibling": "slot_3_1652719015242"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, IBM's pageLimit for logging exeeded the possible maximum value!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1652162169090",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1652162260164",
+      "previous_sibling": "response_6_1652162259581"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "oops it doesn't work"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1650401898554",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1653464330856",
+      "previous_sibling": "response_3_1650401898554"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "oops it doesn't work"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1653471066278",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1653471143839",
+      "previous_sibling": "response_9_1653471143325"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Good to see ya, $username!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1648459105294",
+      "context": {},
+      "conditions": "$username",
+      "dialog_node": "response_9_1648653934147"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_11.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1653471044884",
+      "conditions": "$webhook_result_11",
+      "dialog_node": "response_9_1653471090842"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_12.response"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1653471066278",
+      "conditions": "$webhook_result_12",
+      "dialog_node": "response_9_1653471143325"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1648892028242",
+      "variable": "$number",
+      "dialog_node": "slot_10_1649249661648",
+      "previous_sibling": "slot_7_1649229469292"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1649229227635",
+      "variable": "$order_type",
+      "dialog_node": "slot_2_1652717619758",
+      "previous_sibling": "node_2_1652722973466"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1652722973466",
+      "variable": "$order_close_binary",
+      "dialog_node": "slot_2_1652723055046",
+      "previous_sibling": "response_4_1652723491529"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1652718621329",
+      "variable": "$instrument_price",
+      "dialog_node": "slot_3_1652719015242"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1648892028242",
+      "variable": "$instrument",
+      "dialog_node": "slot_5_1649247056621",
+      "previous_sibling": "slot_7_1649245595353"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1652719370848",
+      "variable": "$order_close_price",
+      "dialog_node": "slot_6_1652719755015",
+      "previous_sibling": "node_8_1652720750665"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1648892028242",
+      "variable": "$order_complexity",
+      "conditions": "",
+      "dialog_node": "slot_7_1649229469292",
+      "previous_sibling": "slot_5_1649247056621"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1648892028242",
+      "variable": "$trade_type",
+      "dialog_node": "slot_7_1649245595353",
+      "previous_sibling": "response_10_1649229670254"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1648892028242",
+      "variable": "$order_type",
+      "dialog_node": "slot_7_1652717287697",
+      "previous_sibling": "slot_10_1649249661648"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1652720750665",
+      "variable": "$order_close",
+      "dialog_node": "slot_8_1652720790308"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to Yo Bank chat. My name is Yoyo, a virtual assistant. How can I help you? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "nlp": {
+      "model": "baseline"
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v1"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Yoyo skill",
+  "language": "en",
+  "description": ""
+}
